@@ -1,0 +1,36 @@
+body {
+  background-color: #EFEEEE;
+  font-family: "Inter", sans-serif;
+  padding: 15px;
+}
+
+p {
+  margin: 0;
+}
+
+.page-wrapper {
+  max-width:390px;
+  margin: auto;
+  overflow: hidden;
+  background-color: #EFEEEE;
+  box-shadow: 0 0 30px 0 rgba(162, 162, 162, 0.3);
+  border-radius: 15px;
+}
+
+header {
+  background: url("../img/header-bg.jpeg");
+  padding: 15px 20px 150px;
+  color: #fff;
+}
+
+.title-hello {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.text-hello {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22px;
+}
