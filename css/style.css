@@ -94,6 +94,7 @@ header {
   background-color: #272727;
   color: #fff;
   text-decoration: none;
+  font-size: 16px;
   line-height: 50px;
 }
 
@@ -106,7 +107,24 @@ header {
 .button.wa {
   background-color: #25d366;
 }
+.button.works {
+  background-color: #ffffff;
+  border: 2px solid #272727;
+  color: #272727;
+  font-weight: 500;
+}
 
 .button-text {
   margin-left: 5px;
+}
+
+.info hr {
+  max-width: 260px;
+  margin: 15px auto;
+  background-color: #CCCCCC;
+}
+
+.skills ul {
+  padding-left: 20px;
+  margin: 0 auto 15px;
 }
