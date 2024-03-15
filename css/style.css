@@ -15,6 +15,7 @@ p {
 .page-wrapper {
   max-width: 390px;
   margin: auto;
+  padding-bottom: 25px;
   overflow: hidden;
   background-color: #efeeee;
   box-shadow: 0 0 30px 0 rgba(162, 162, 162, 0.3);
@@ -51,11 +52,13 @@ header {
   padding: 20px;
   border-radius: 10px;
   margin-top: -70px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 .user-avatar {
   object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #ffffff;
   margin-top: -70px;
 }
 
