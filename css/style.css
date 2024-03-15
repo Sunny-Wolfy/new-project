@@ -1,5 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: #EFEEEE;
+  background-color: #efeeee;
   font-family: "Inter", sans-serif;
   padding: 15px;
 }
@@ -9,10 +13,10 @@ p {
 }
 
 .page-wrapper {
-  max-width:390px;
+  max-width: 390px;
   margin: auto;
   overflow: hidden;
-  background-color: #EFEEEE;
+  background-color: #efeeee;
   box-shadow: 0 0 30px 0 rgba(162, 162, 162, 0.3);
   border-radius: 15px;
 }
@@ -33,4 +37,34 @@ header {
   font-size: 16px;
   font-weight: 300;
   line-height: 22px;
+}
+
+.page-container {
+  max-width: 360px;
+  margin: auto;
+}
+
+.user {
+  background-color: #ffffff;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: -70px;
+}
+
+.user-avatar {
+  object-fit: cover;
+  margin-top: -70px;
+}
+
+.user-name {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.user-description {
+  font-size: 15px;
+  font-weight: 400;
 }
