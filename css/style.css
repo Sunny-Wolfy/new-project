@@ -6,6 +6,7 @@ body {
   background-color: #efeeee;
   font-family: "Inter", sans-serif;
   padding: 15px;
+  cursor: default;
 }
 
 p {
@@ -23,21 +24,22 @@ p {
 }
 
 header {
-  background: url("../img/header-bg.jpeg");
+  background: url("../img/header-bg.jpeg") no-repeat center / cover;
+  border-radius: 0 0 60px 60px;
   padding: 15px 20px 150px;
   color: #fff;
 }
 
 .title-hello {
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 700;
   margin-bottom: 10px;
 }
 
 .text-hello {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 300;
-  line-height: 22px;
+  line-height: 1.4;
 }
 
 .page-container {
@@ -65,6 +67,7 @@ header {
 .user-name {
   font-size: 16px;
   font-weight: 600;
+  margin-top: 5px;
   margin-bottom: 10px;
 }
 
